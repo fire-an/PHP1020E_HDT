@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<fieldset>
+	<legend>
+		Application form
+	</legend>
+	<form>
+		<table>
+			<tr>
+				<td>Full name</td>
+				<td><input type="text" placeholder="Aryan"></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><input type="Email" placeholder="aryan@domail.com"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>
+					<input type="radio" name="gender">Male
+					<input type="radio" name="gender">Female
+				</td>
+			</tr>
+			<tr>
+				<td>Nationaly</td>
+				<td>
+					<select>
+						<option selected>Indian</option>
+						<option>Vietnam</option>
+						<option>Japan</option>
+						<option>Korea</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Skills</td>
+				<td>
+					<input type="checkbox" checked="">Asp.Net
+					<input type="checkbox" checked="">jQuery
+				</td>
+			</tr>
+			<tr>
+				<!-- <td></td> -->
+				<td>
+					<input type="checkbox" >MVC
+					<input type="checkbox" checked="">Sql Server
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Post applying<br>for</td>
+				<td>
+					<input type="radio" name="job">Trainee
+					<input type="radio" name="job" checked>Software Engineer
+				</td>
+			</tr>
+			<tr>
+				<!-- <td></td> -->
+				<td>
+					<input type="radio" name="job">Team Leader
+					<input type="radio" name="job">Project Manager
+				</td>
+			</tr>
+			<tr>
+				<td>Upload<br>Resume:</td>
+				<td><input type="file" name="banner.png"></td>
+			</tr>
+			<tr>
+				<td>Paste your<br>resume</td>
+				<td>
+					<textarea cols="30" rows="5">Sample resume text...</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+		<input type="checkbox" checked="">Notify me the status via Email
+		</td>
+		<td><!-- </td> -->
+		</tr>
+		<tr>
+			<td colspan="2">
+		<input type="radio" checked="">I agree to term & condition
+		</td>
+		<!-- <td></td> -->
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<input type="submit" name="">
+				<input type="reset" name="">
+			</td>
+		</tr>
+	</form>
+	</table>
+</fieldset>
+</body>
+</html>
